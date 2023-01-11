@@ -84,14 +84,14 @@ body{
 .background__bloob-left{
     position: absolute;
     transform: rotate(-95deg);
-    left: -20%;
+    left: -40%;
     top: 30%;
     z-index: -1;
 }
 .background__bloob-right{
     position: absolute;
     transform: rotate(95deg);
-    left: 70%;
+    right: -40%;
     top: 1%;
     z-index: -1;
 }
