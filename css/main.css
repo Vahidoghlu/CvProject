@@ -1,0 +1,373 @@
+:root {
+    --color1: #8685EF;
+    --colorHover1: #5c5be7;
+    --color2: #E3E0F3;
+    --color3: #FAF8FF;
+    --black1: #1c1c1c
+}
+
+/*Main color*/
+.purple1 {
+   color: var(--color1);
+}
+.purple2 {
+   color: var(--color2);
+}
+.purple3 {
+   color: var(--color3);
+}
+.black1 {
+   color: var(--black1);
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--black1);
+}
+
+
+/*navbar menu*/
+.background__svg{
+    position: absolute;
+    top: -140%;
+    right: -114%;
+    z-index: -1;
+}
+
+.main__vision{
+    overflow-x: clip;
+    width: 100%;
+    position: relative;
+}
+
+.btn__auth a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn__auth-login{
+    color: var(--color1);
+}
+.btn__auth-login:hover{
+    color: var(--black1);
+    cursor: pointer;
+}
+
+.btn__auth-signup{
+    background-color: var(--color1);
+    color: white;
+}
+.btn__auth-signup:hover{
+    background-color: var(--colorHover1);
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item a:hover{
+    color: var(--color1);
+}
+.nav-item a{
+    font-size: 19px;
+}
+
+
+/*background bloob*/
+.background__bloob-left1{
+    position: absolute;
+    transform: rotate(-95.16deg);
+    left: -20%;
+    top: 70%;
+    z-index: -1;
+}
+
+/*title, offer*/
+.slider_container{
+    margin-top: 300px;
+}
+.main__offer{
+    height: 600px;
+    flex-direction: column;
+}
+.main__offer p{
+    text-align: justify;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.btn__create {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--color1);
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn__create:hover{
+    background-color: var(--colorHover1);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 40px 74px 0 #764abc40;
+}
+
+
+
+
+/*video how to create section*/
+.home__video-create{
+    margin-top: 200px;
+}
+.home__video-create #outer {
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    object-fit: scale-down;
+
+}
+.home__video-create .video {
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    border-radius: 20px;
+    width: 800px;
+}
+#video__left-svg{
+    position: absolute;
+    left: -10%;
+    top: -80px;
+}
+#video__right-svg{
+    position: absolute;
+    right: 5%;
+    bottom: -35%;
+}
+
+.video__container{
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video__container h1{
+    color: var(--color1);
+}
+.video__container p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 182.5%;
+}
+
+.watch__video{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.watch__video .btn__watch {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid var(--color2);
+    color: var(--black1);
+    width: fit-content;
+    font-size: 20px;
+}
+
+.watch__video .btn__watch:hover{
+    color: var(--color1);
+    cursor: pointer;
+    border: 1px solid var(--color1);
+}
+.watch__video .btn__icon{
+    font-size: 30px;
+}
+.watch__video .btn__watch{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*caroisel create resume builder*/
+.section__title{
+    font-size: 46px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    color: var(--color1);
+}
+
+.carousel__create-example{
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+
+/*create  steps*/
+.create__steps{
+    margin-top: 200px;
+}
+.steps__container{
+    justify-content: space-between;
+    align-items: center;
+}
+.create__steps .create__box{
+    background: #FFFFFF;
+    box-shadow: 0 10px 45px rgba(1, 13, 130, 0.07);
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 3%;
+}
+.create__steps .create__box:hover{
+    box-shadow: 0 10px 45px rgba(1, 13, 130, 0.12);
+}
+.create__box-header{
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+}
+.create__box-content{
+    font-weight: 400;
+    line-height: 130%;
+    color: #84879E;
+    font-size: 14px;
+}
+
+
+
+
+/*features*/
+.features{
+    margin-top: 200px;
+}
+.feature__content h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+.feature__content h5{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+.feature__content{
+    align-content: center;
+}
+.feature__content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.feature__icon{
+    font-size: 28px;
+    color: var(--color1);
+}
+.features__container{
+    justify-content: space-between
+}
+
+
+
+
+
+/*site information*/
+.site__information{
+    margin-top: 200px;
+}
+
+.information__container{
+    justify-content: space-between;
+    align-items: center;
+}
+.information__container h6{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    color: var(--color1);
+}
+.information__container h5{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 144%;
+}
+.information__container p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 182%;
+    color: #84879E;
+}
+
+
+
+
+/*customers*/
+.customers{
+    margin-top: 200px;
+}
+.customers__say{
+    height: 440px;
+    background: #F8FBFE;
+    box-shadow: 0 10px 50px rgba(1, 13, 130, 0.12);
+    border-radius: 20px;
+    align-items: center;
+}
+.customer__content h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 144%;
+    color: var(--color1);
+}
+.customer__content span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144%;
+    color: #84879E;
+}
+.customer__content p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    color: #84879E;
+}
+.star{
+    color: #FFC46B;
+}
+
+
+
+
+
+/*footer*/
+.footer__gradient{
+    background-image: url("../svg/gradient.svg");
+    width: 100%;
+    height: 2185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    background-position-x: center;
+}
