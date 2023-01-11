@@ -363,7 +363,7 @@ body{
 
 /*footer*/
 .footer__gradient{
-    background-image: url("../svg/gradient.svg");
+    background-image: url("../svg/gradient.svg")!important;
     width: 100%;
     height: 2185px;
     background-size: cover;
