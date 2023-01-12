@@ -1,12 +1,12 @@
 let swiper = new Swiper(".swiper", {
-    slidesPerView: 4,
+    slidesPerView: 5,
     // centeredSlides: true,
     spaceBetween: 50,
     grabCursor: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    // },
 });
 
 
