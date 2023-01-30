@@ -1,7 +1,7 @@
 /*SWIPER--------------------------------------------*/
 .swiper {
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     margin-bottom: 100px;
 }
 
@@ -125,8 +125,6 @@
 /*------------------------------------------------------swiper 2*/
 .swiper1 {
     width: 400px;
-    height: 600px;
-    margin-right: 20%;
 }
 
 .swiper-slide {
